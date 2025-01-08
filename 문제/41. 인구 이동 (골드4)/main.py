@@ -7,7 +7,6 @@ ctrs = [list(map(int, input().split())) for _ in range(N)]
 # NESW
 vectors = [(-1, 0), (0, 1), (1, 0), (0, -1)]
 
-
 def bfs(ctrs, visited, i, j):
   queue = deque([(i, j)])
   visited[i][j] = 1
